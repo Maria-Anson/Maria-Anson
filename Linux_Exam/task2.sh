@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ARG1= $1
+ARG1=$1
 
 if [ $ARG1 == 'small_square' ]; then
     rosrun linux_exam small_square.py
